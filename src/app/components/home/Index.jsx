@@ -28,7 +28,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="xl:max-w-[70rem] m-auto p-7 my-8">
+        <div className="xl:max-w-[70rem] m-auto p-7 my-8" id="about-us">
           <h3 className="uppercase text-[20px] font-extrabold tracking-wide">
             {"About US"}
           </h3>
@@ -36,7 +36,7 @@ export default function Home() {
             {`There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which do not look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there is not anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.`}
           </p>
         </div>
-        <div className="bg-slate-900">
+        <div className="bg-slate-900" id="our-products">
           <div className="xl:max-w-[70rem] m-auto p-7">
             <h3 className="px-2 text-center uppercase text-[20px] text-white font-extrabold tracking-wide">
               {"What we can do"}
@@ -171,7 +171,7 @@ export default function Home() {
           </div>
         </div>
       </main>
-      <footer className="bg-slate-900 text-white w-full">
+      <footer className="bg-slate-900 text-white w-full" id="contact-us">
         <div className="xl:max-w-[70rem] m-auto p-7 my-8">
           <div className="grid grid-cols-2 max-md:grid-cols-1 gap-10">
             <div className="">

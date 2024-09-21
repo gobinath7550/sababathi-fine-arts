@@ -22,6 +22,25 @@ export default function Header() {
     }
   };
 
+  const handleScroll = (event, targetId) => {
+    event.preventDefault();
+
+    const targetElement = document.getElementById(targetId);
+    const headerHeight = document.querySelector("header").offsetHeight; // Get the header height
+
+    if (targetElement) {
+      const elementPosition =
+        targetElement.getBoundingClientRect().top +
+        window.pageYOffset -
+        headerHeight;
+      setIsOpenMobileMenu(false);
+      window.scrollTo({
+        top: elementPosition,
+        behavior: "smooth",
+      });
+    }
+  };
+
   useEffect(() => {
     if (isOpenMobileMenu) {
       document.addEventListener("mousedown", handleClickOutside);
@@ -63,37 +82,49 @@ export default function Header() {
         </div>
         <ul className="flex flex-col sm:hidden tracking-wide gap-3 p-8 py-5 text-sm font-bold text-black">
           <li>
-            <a href="#">
-              <span>Home</span>
+            <a href="#" title="Home">
+              <span>{"Home"}</span>
             </a>
           </li>
           <li>
-            <a href="#">
-              <span>About Us</span>
+            <a
+              href="#about-us"
+              title="About Us"
+              onClick={(e) => handleScroll(e, "about-us")}
+            >
+              <span>{"About Us"}</span>
             </a>
           </li>
           <li>
-            <a href="#">
-              <span>Products</span>
+            <a
+              href="#our-products"
+              title="Products"
+              onClick={(e) => handleScroll(e, "our-products")}
+            >
+              <span>{"Products"}</span>
             </a>
           </li>
           <li>
-            <a href="#">
-              <span>Contact Us</span>
+            <a
+              href="#contact-us"
+              title="Contact Us"
+              onClick={(e) => handleScroll(e, "contact-us")}
+            >
+              <span>{"Contact Us"}</span>
             </a>
           </li>
         </ul>
         <ul className="flex gap-3 px-8 py-8">
-          <li className="bg-[#0d0029] group cursor-pointer hover:bg-blue-600 border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[8px] shadow-xl w-10 h-10 transition-all">
+          <li className="bg-[#0d0029] group cursor-pointer hover:bg-blue-600 border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[8px] shadow-xl w-10 h-10 transition-all flex">
             <WhatsApp_Svg />
           </li>
-          <li className="bg-[#0d0029] group cursor-pointer hover:bg-blue-600 border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[8px] shadow-xl w-10 h-10 transition-all">
+          <li className="bg-[#0d0029] group cursor-pointer hover:bg-blue-600 border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[8px] shadow-xl w-10 h-10 transition-all flex">
             <Instagram_Svg />
           </li>
-          <li className="bg-[#0d0029] group cursor-pointer hover:bg-blue-600 border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[8px] shadow-xl w-10 h-10 transition-all">
+          <li className="bg-[#0d0029] group cursor-pointer hover:bg-blue-600 border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[8px] shadow-xl w-10 h-10 transition-all flex">
             <Facebook_Svg />
           </li>
-          <li className="bg-[#0d0029] group cursor-pointer hover:bg-blue-600 border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[8px] shadow-xl w-10 h-10 transition-all">
+          <li className="bg-[#0d0029] group cursor-pointer hover:bg-blue-600 border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[8px] shadow-xl w-10 h-10 transition-all flex">
             <Youtube_Svg />
           </li>
         </ul>
@@ -121,22 +152,34 @@ export default function Header() {
           </div>
           <ul className="flex max-sm:hidden tracking-wide items-center justify-center gap-5 text-sm font-bold text-black mr-7">
             <li>
-              <a href="#">
+              <a href="#" title="Home">
                 <span>{"Home"}</span>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a
+                href="#about-us"
+                title="About Us"
+                onClick={(e) => handleScroll(e, "about-us")}
+              >
                 <span>{"About Us"}</span>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a
+                href="#our-products"
+                title="Products"
+                onClick={(e) => handleScroll(e, "our-products")}
+              >
                 <span>{"Products"}</span>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a
+                href="#contact-us"
+                title="Contact Us"
+                onClick={(e) => handleScroll(e, "contact-us")}
+              >
                 <span>{"Contact Us"}</span>
               </a>
             </li>
