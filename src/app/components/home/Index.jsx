@@ -15,24 +15,27 @@ export default function Home() {
       <Header />
       <main className="w-full">
         <div className="bg-[url('/images/banner-images/banner-img-2.jpg')] bg-scroll bg-center bg-no-repeat bg-cover w-full">
-          <div className="bg-black/40 max-sm:min-h-[25rem] min-h-[35rem] lg:min-h-[45rem] flex items-center justify-start">
+          <div className="bg-black/50 max-sm:min-h-[20rem] min-h-[35rem] lg:min-h-[45rem] flex items-center justify-start">
             <div className="xl:max-w-[70rem] w-full m-auto p-7">
-              <div className="flex flex-col gap-2 w-fit mt-10">
-                <h1 className="font-extrabold text-[calc(100vw-92vw)] xl:text-[94px] leading-none text-white tracking-widest uppercase">
+              <div className="flex flex-col gap-2 w-fit mt-16">
+                <h1 className="font-extrabold text-[calc(100vw-92vw)] xl:text-[94px] leading-none text-white tracking-widest uppercase text-shadow">
                   {"Sababathi"}
                 </h1>
-                <h3 className="font-extrabold text-orange-100 mx-2 text-[calc(100vw-97vw)] xl:text-[44px] leading-none tracking-[0.2em] text-left flex justify-end">
+                <h3 className="font-extrabold text-orange-100 mx-[2px] sm:mx-2 text-[calc(100vw-97vw)] xl:text-[44px] leading-none tracking-[0.2em] text-left flex justify-end">
                   {"Fine Arts"}
                 </h3>
               </div>
             </div>
           </div>
         </div>
-        <div className="xl:max-w-[70rem] m-auto p-7 my-8" id="about-us">
-          <h3 className="uppercase text-[20px] font-extrabold tracking-wide">
+        <div
+          className="xl:max-w-[70rem] m-auto p-7 my-8 max-sm:my-0"
+          id="about-us"
+        >
+          <h3 className="uppercase text-[20px]  max-sm:text-center font-extrabold tracking-wide">
             {"About US"}
           </h3>
-          <p className="pt-4 text-justify text-gray-700 tracking-widest indent-11 mx-1 leading-loose text-sm">
+          <p className="pt-4 text-justify text-gray-700 tracking-widest indent-11 mx-1 leading-loose text-sm max-sm:leading-normal">
             {`There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which do not look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there is not anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.`}
           </p>
         </div>
@@ -41,15 +44,15 @@ export default function Home() {
             <h3 className="px-2 text-center uppercase text-[20px] text-white font-extrabold tracking-wide">
               {"What we can do"}
             </h3>
-            <div className="grid grid-cols-3 max-md:grid-cols-1 justify-between px-2 mt-6 gap-9">
-              <div className="rounded-md bg-gray-200">
-                <div className="max-h-48 overflow-hidden">
+            <div className="grid grid-cols-3 max-lg:grid-cols-1 justify-between px-2 mt-6 gap-9">
+              <div className="rounded-md bg-gray-200 flex flex-col">
+                <div className="overflow-hidden h-52">
                   <Image
                     src="/images/usp-img-1.jpg"
                     alt="G"
                     width={385}
                     height={135}
-                    className="object-cover rounded-md w-full"
+                    className="object-cover rounded-md w-full h-full"
                     priority
                   />
                 </div>
@@ -59,14 +62,14 @@ export default function Home() {
                   }
                 </div>
               </div>
-              <div className="rounded-md bg-gray-200">
-                <div className="max-h-48 overflow-hidden">
+              <div className="rounded-md bg-gray-200 flex flex-col">
+                <div className="overflow-hidden h-52">
                   <Image
                     src="/images/usp-img-2.jpg"
                     alt="G"
                     width={385}
                     height={135}
-                    className="object-cover rounded-md w-full"
+                    className="object-cover rounded-md w-full h-full"
                     priority
                   />
                 </div>
@@ -76,14 +79,14 @@ export default function Home() {
                   }
                 </div>
               </div>
-              <div className="rounded-md bg-gray-200">
-                <div className="max-h-48 overflow-hidden">
+              <div className="rounded-md bg-gray-200 flex flex-col">
+                <div className="overflow-hidden h-52">
                   <Image
                     src="/images/usp-img-3.jpg"
                     alt="G"
                     width={385}
                     height={135}
-                    className="object-cover rounded-md w-full"
+                    className="object-cover rounded-md w-full h-full"
                     priority
                   />
                 </div>
@@ -96,11 +99,11 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="xl:max-w-[70rem] m-auto p-7 my-8">
-          <h3 className="px-2 uppercase text-[20px] text-black font-extrabold tracking-wide">
+        <div className="xl:max-w-[70rem] m-auto p-7 my-8 max-sm:my-4">
+          <h3 className="px-2 uppercase text-[20px] max-sm:text-center text-black font-extrabold tracking-wide">
             {"Testimonials"}
           </h3>
-          <div className="sm:px-14 mt-14">
+          <div className="sm:px-14 mt-14 bg-gray-300 p-4 rounded-md  max-sm:mt-6">
             <div className="flex items-center justify-center sm:px-14">
               <Image
                 src="/images/awards-left.png"

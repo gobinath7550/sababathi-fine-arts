@@ -26,6 +26,10 @@ h3 {
   font-family: __bronsul_e880dc;
 }
 
+.text-shadow {
+  text-shadow: 1px 1px 0 #000000, 1px 1px 8px #ddd3d3;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

@@ -82,7 +82,11 @@ export default function Header() {
         </div>
         <ul className="flex flex-col sm:hidden tracking-wide gap-3 p-8 py-5 text-sm font-bold text-black">
           <li>
-            <a href="#" title="Home">
+            <a
+              href="#"
+              title="Home"
+              className="border-b-2 border-transparent hover:border-black transition-all"
+            >
               <span>{"Home"}</span>
             </a>
           </li>
@@ -91,6 +95,7 @@ export default function Header() {
               href="#about-us"
               title="About Us"
               onClick={(e) => handleScroll(e, "about-us")}
+              className="border-b-2 border-transparent hover:border-black transition-all"
             >
               <span>{"About Us"}</span>
             </a>
@@ -100,6 +105,7 @@ export default function Header() {
               href="#our-products"
               title="Products"
               onClick={(e) => handleScroll(e, "our-products")}
+              className="border-b-2 border-transparent hover:border-black transition-all"
             >
               <span>{"Products"}</span>
             </a>
@@ -109,6 +115,7 @@ export default function Header() {
               href="#contact-us"
               title="Contact Us"
               onClick={(e) => handleScroll(e, "contact-us")}
+              className="border-b-2 border-transparent hover:border-black transition-all"
             >
               <span>{"Contact Us"}</span>
             </a>
@@ -152,7 +159,11 @@ export default function Header() {
           </div>
           <ul className="flex max-sm:hidden tracking-wide items-center justify-center gap-5 text-sm font-bold text-black mr-7">
             <li>
-              <a href="#" title="Home">
+              <a
+                href="#"
+                title="Home"
+                className="border-b-2 border-transparent hover:border-black transition-all"
+              >
                 <span>{"Home"}</span>
               </a>
             </li>
@@ -161,6 +172,7 @@ export default function Header() {
                 href="#about-us"
                 title="About Us"
                 onClick={(e) => handleScroll(e, "about-us")}
+                className="border-b-2 border-transparent hover:border-black transition-all"
               >
                 <span>{"About Us"}</span>
               </a>
@@ -170,6 +182,7 @@ export default function Header() {
                 href="#our-products"
                 title="Products"
                 onClick={(e) => handleScroll(e, "our-products")}
+                className="border-b-2 border-transparent hover:border-black transition-all"
               >
                 <span>{"Products"}</span>
               </a>
@@ -179,6 +192,7 @@ export default function Header() {
                 href="#contact-us"
                 title="Contact Us"
                 onClick={(e) => handleScroll(e, "contact-us")}
+                className="border-b-2 border-transparent hover:border-black transition-all"
               >
                 <span>{"Contact Us"}</span>
               </a>
