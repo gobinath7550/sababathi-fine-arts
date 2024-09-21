@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Header from "../global/Header";
+import { useEffect, useState } from "react";
 import {
   WhatsApp_Svg,
   Instagram_Svg,
@@ -10,14 +11,42 @@ import {
 } from "../svg-icons";
 
 export default function Home() {
+  const images = [
+    "url('/images/banner-images/banner-img-1.jpg')",
+    "url('/images/banner-images/banner-img-2.jpg')",
+    "url('/images/banner-images/banner-img-3.jpg')",
+    "url('/images/banner-images/banner-img-4.jpg')",
+    "url('/images/banner-images/banner-img-5.jpg')",
+    "url('/images/banner-images/banner-img-6.jpg')",
+    "url('/images/banner-images/banner-img-7.jpg')",
+    "url('/images/banner-images/banner-img-8.jpg')",
+    "url('/images/banner-images/banner-img-9.jpg')",
+  ];
+
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, 2000);
+    return () => clearInterval(interval);
+  }, [images.length]);
+
+  const backgroundStyle = {
+    backgroundImage: images[currentImageIndex],
+  };
+
   return (
     <div className="flex flex-col items-center justify-center">
       <Header />
       <main className="w-full">
-        <div className="bg-[url('/images/banner-images/banner-img-2.jpg')] bg-scroll bg-center bg-no-repeat bg-cover w-full">
-          <div className="bg-black/50 max-sm:min-h-[20rem] min-h-[35rem] lg:min-h-[45rem] flex items-center justify-start">
+        <div
+          style={backgroundStyle}
+          className="bg-cover w-full bg-scroll transition-all duration-1000"
+        >
+          <div className="bg-black/50 max-sm:min-h-[20rem] min-h-[35rem] lg:min-h-[45rem] flex items-center justify-center">
             <div className="xl:max-w-[70rem] w-full m-auto p-7">
-              <div className="flex flex-col gap-2 w-fit mt-16">
+              <div className="flex flex-col items-center justify-center gap-2 mt-16">
                 <h1 className="font-extrabold text-[calc(100vw-92vw)] xl:text-[94px] leading-none text-white tracking-widest uppercase text-shadow">
                   {"Sababathi"}
                 </h1>
@@ -32,7 +61,7 @@ export default function Home() {
           className="xl:max-w-[70rem] m-auto p-7 my-8 max-sm:my-0"
           id="about-us"
         >
-          <h3 className="uppercase text-[20px]  max-sm:text-center font-extrabold tracking-wide">
+          <h3 className="uppercase text-[20px] text-center font-extrabold tracking-wide">
             {"About US"}
           </h3>
           <p className="pt-4 text-justify text-gray-700 tracking-widest indent-11 mx-1 leading-loose text-sm max-sm:leading-normal">
@@ -100,7 +129,7 @@ export default function Home() {
           </div>
         </div>
         <div className="xl:max-w-[70rem] m-auto p-7 my-8 max-sm:my-4">
-          <h3 className="px-2 uppercase text-[20px] max-sm:text-center text-black font-extrabold tracking-wide">
+          <h3 className="px-2 uppercase text-[20px] text-center text-black font-extrabold tracking-wide">
             {"Testimonials"}
           </h3>
           <div className="sm:px-14 mt-14 bg-gray-300 p-4 rounded-md  max-sm:mt-6">
@@ -171,6 +200,13 @@ export default function Home() {
                 '"The room was smaller than expected, and the service at the restaurant was slow. However, the location is great, and the staff was friendly. There&apos;s definitely room for improvement".'
               }
             </p>
+          </div>
+        </div>
+        <div className="bg-[url('/images/banner-images/banner-img-3.jpg')] bg-fixed">
+          <div className="xl:max-w-[70rem] m-auto p-7 my-8 max-sm:my-4">
+            <h3 className="px-2 uppercase text-[20px] text-center text-white font-extrabold tracking-wide">
+              {"FAQ's"}
+            </h3>
           </div>
         </div>
       </main>
