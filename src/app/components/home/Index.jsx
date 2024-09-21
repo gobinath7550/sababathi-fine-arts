@@ -35,9 +35,9 @@ export default function Home() {
           <p className="pt-4 text-justify text-gray-900 tracking-widest indent-11 mx-1 leading-loose text-sm">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, by injected
-            humour, or randomised words which don't look even slightly
+            humour, or randomised words which don&apos;t look even slightly
             believable. If you are going to use a passage of Lorem Ipsum, you
-            need to be sure there isn't anything embarrassing hidden in the
+            need to be sure there isn&apos;t anything embarrassing hidden in the
             middle of text. All the Lorem Ipsum generators on the Internet tend
             to repeat predefined chunks as necessary, making this the first true
             generator on the Internet. It uses a dictionary of over 200 Latin
@@ -91,9 +91,9 @@ export default function Home() {
                   words, consectetur, from a Lorem Ipsum passage, and going
                   through the cites of the word in classical literature,
                   discovered the undoubtable source. Lorem Ipsum comes from
-                  sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et
-                  Malorum" (The Extremes of Good and Evil) by Cicero, written in
-                  45 BC.
+                  sections 1.10.32 and 1.10.33 of &quot;de Finibus Bonorum et
+                  Malorum&quot; (The Extremes of Good and Evil) by Cicero,
+                  written in 45 BC.
                 </div>
               </div>
               <div className="rounded-md bg-gray-200">
@@ -171,9 +171,10 @@ export default function Home() {
                   </span>
                 </div>
                 <p className="text-center max-md:hidden italic text-sm">
-                  "The room was smaller than expected, and the service at the
-                  restaurant was slow. However, the location is great, and the
-                  staff was friendly. There’s definitely room for improvement."
+                  &quot;The room was smaller than expected, and the service at
+                  the restaurant was slow. However, the location is great, and
+                  the staff was friendly. There&apos;s definitely room for
+                  improvement.&quot;
                 </p>
               </div>
               <Image
@@ -186,9 +187,9 @@ export default function Home() {
               />
             </div>
             <p className="text-center max-md:pt-6 md:hidden italic text-sm">
-              "The room was smaller than expected, and the service at the
+              &quot;The room was smaller than expected, and the service at the
               restaurant was slow. However, the location is great, and the staff
-              was friendly. There’s definitely room for improvement."
+              was friendly. There&rsquo;s definitely room for improvement.&quot;
             </p>
           </div>
         </div>
