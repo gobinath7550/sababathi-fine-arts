@@ -18,12 +18,12 @@ export default function Home() {
           <div className="bg-black/40 max-sm:min-h-[25rem] min-h-[35rem] lg:min-h-[45rem] flex items-center justify-start">
             <div className="xl:max-w-[70rem] w-full m-auto p-7">
               <div className="flex flex-col gap-2 w-fit mt-10">
-                <span className="font-extrabold text-[calc(100vw-92vw)] xl:text-[94px] leading-none text-white tracking-widest uppercase">
+                <h1 className="font-extrabold text-[calc(100vw-92vw)] xl:text-[94px] leading-none text-white tracking-widest uppercase">
                   {"Sababathi"}
-                </span>
-                <span className="font-extrabold text-orange-100 mx-2 text-[calc(100vw-97vw)] xl:text-[44px] leading-none tracking-[0.2em] text-left flex justify-end">
+                </h1>
+                <h3 className="font-extrabold text-orange-100 mx-2 text-[calc(100vw-97vw)] xl:text-[44px] leading-none tracking-[0.2em] text-left flex justify-end">
                   {"Fine Arts"}
-                </span>
+                </h3>
               </div>
             </div>
           </div>
@@ -32,7 +32,7 @@ export default function Home() {
           <h3 className="uppercase text-[20px] font-extrabold tracking-wide">
             {"About US"}
           </h3>
-          <p className="pt-4 text-justify text-gray-900 tracking-widest indent-11 mx-1 leading-loose text-sm">
+          <p className="pt-4 text-justify text-gray-700 tracking-widest indent-11 mx-1 leading-loose text-sm">
             {`There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which do not look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there is not anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.`}
           </p>
         </div>

@@ -7,90 +7,6 @@
   --foreground: #171717;
 }
 
-@font-face {
-  font-family: "Figtree-Black";
-  src: url("/src/app/fonts/Figtree/Figtree-Black.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Figtree-Black-Italic";
-  src: url("/src/app/fonts/Figtree/Figtree-BlackItalic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Figtree-Bold";
-  src: url("/src/app/fonts/Figtree/Figtree-Bold.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Figtree-Bold-Italic";
-  src: url("/src/app/fonts/Figtree/Figtree-BoldItalic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Figtree-Extra-Bold";
-  src: url("/src/app/fonts/Figtree/Figtree-ExtraBold.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Figtree-Extra-Bold-Italic";
-  src: url("/src/app/fonts/Figtree/Figtree-ExtraBoldItalic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Figtree-Italic";
-  src: url("/src/app/fonts/Figtree/Figtree-Italic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Figtree-Light";
-  src: url("/src/app/fonts/Figtree/Figtree-Light.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Figtree-Light-Italic";
-  src: url("/src/app/fonts/Figtree/Figtree-LightItalic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Figtree-Medium";
-  src: url("/src/app/fonts/Figtree/Figtree-Medium.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Figtree-Medium-Italic";
-  src: url("/src/app/fonts/Figtree/Figtree-MediumItalic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Figtree-Regular";
-  src: url("/src/app/fonts/Figtree/Figtree-Regular.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground: #0a0a0a;
@@ -101,7 +17,13 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif, Figtree-Black;
+  font-family: __caviarDreamsBold_53610e, Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: __bronsul_e880dc;
 }
 
 @layer utilities {
