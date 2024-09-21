@@ -19,10 +19,10 @@ export default function Home() {
             <div className="xl:max-w-[70rem] w-full m-auto p-7">
               <div className="flex flex-col gap-2 w-fit mt-10">
                 <span className="font-extrabold text-[calc(100vw-92vw)] xl:text-[94px] leading-none text-white tracking-widest uppercase">
-                  Sababathi
+                  {"Sababathi"}
                 </span>
                 <span className="font-extrabold text-orange-100 mx-2 text-[calc(100vw-97vw)] xl:text-[44px] leading-none tracking-[0.2em] text-left flex justify-end">
-                  Fine Arts
+                  {"Fine Arts"}
                 </span>
               </div>
             </div>
@@ -30,27 +30,16 @@ export default function Home() {
         </div>
         <div className="xl:max-w-[70rem] m-auto p-7 my-8">
           <h3 className="uppercase text-[20px] font-extrabold tracking-wide">
-            About US
+            {"About US"}
           </h3>
           <p className="pt-4 text-justify text-gray-900 tracking-widest indent-11 mx-1 leading-loose text-sm">
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomised words which don&apos;t look even slightly
-            believable. If you are going to use a passage of Lorem Ipsum, you
-            need to be sure there isn&apos;t anything embarrassing hidden in the
-            middle of text. All the Lorem Ipsum generators on the Internet tend
-            to repeat predefined chunks as necessary, making this the first true
-            generator on the Internet. It uses a dictionary of over 200 Latin
-            words, combined with a handful of model sentence structures, to
-            generate Lorem Ipsum which looks reasonable. The generated Lorem
-            Ipsum is therefore always free from repetition, injected humour, or
-            non-characteristic words etc.
+            {`There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which do not look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there is not anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.`}
           </p>
         </div>
         <div className="bg-slate-900">
           <div className="xl:max-w-[70rem] m-auto p-7">
             <h3 className="px-2 text-center uppercase text-[20px] text-white font-extrabold tracking-wide">
-              What we can do
+              {"What we can do"}
             </h3>
             <div className="grid grid-cols-3 max-md:grid-cols-1 justify-between px-2 mt-6 gap-9">
               <div className="rounded-md bg-gray-200">
@@ -65,13 +54,9 @@ export default function Home() {
                   />
                 </div>
                 <div className="p-5 text-gray-700 text-sm text-justify rounded-b-md">
-                  All the Lorem Ipsum generators on the Internet tend to repeat
-                  predefined chunks as necessary, making this the first true
-                  generator on the Internet. It uses a dictionary of over 200
-                  Latin words, combined with a handful of model sentence
-                  structures, to generate Lorem Ipsum which looks reasonable.
-                  The generated Lorem Ipsum is therefore always free from
-                  repetition, injected humour, or non-characteristic words etc.
+                  {
+                    "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc."
+                  }
                 </div>
               </div>
               <div className="rounded-md bg-gray-200">
@@ -86,14 +71,9 @@ export default function Home() {
                   />
                 </div>
                 <div className="p-5 text-gray-700 text-sm text-justify rounded-b-md">
-                  Richard McClintock, a Latin professor at Hampden-Sydney
-                  College in Virginia, looked up one of the more obscure Latin
-                  words, consectetur, from a Lorem Ipsum passage, and going
-                  through the cites of the word in classical literature,
-                  discovered the undoubtable source. Lorem Ipsum comes from
-                  sections 1.10.32 and 1.10.33 of &quot;de Finibus Bonorum et
-                  Malorum&quot; (The Extremes of Good and Evil) by Cicero,
-                  written in 45 BC.
+                  {
+                    "Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &quot;de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC."
+                  }
                 </div>
               </div>
               <div className="rounded-md bg-gray-200">
@@ -108,13 +88,9 @@ export default function Home() {
                   />
                 </div>
                 <div className="p-5 text-gray-700 text-sm text-justify rounded-b-md">
-                  All the Lorem Ipsum generators on the Internet tend to repeat
-                  predefined chunks as necessary, making this the first true
-                  generator on the Internet. It uses a dictionary of over 200
-                  Latin words, combined with a handful of model sentence
-                  structures, to generate Lorem Ipsum which looks reasonable.
-                  The generated Lorem Ipsum is therefore always free from
-                  repetition, injected humour, or non-characteristic words etc.
+                  {
+                    "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc."
+                  }
                 </div>
               </div>
             </div>
@@ -122,7 +98,7 @@ export default function Home() {
         </div>
         <div className="xl:max-w-[70rem] m-auto p-7 my-8">
           <h3 className="px-2 uppercase text-[20px] text-black font-extrabold tracking-wide">
-            Testimonials
+            {"Testimonials"}
           </h3>
           <div className="sm:px-14 mt-14">
             <div className="flex items-center justify-center sm:px-14">
@@ -147,9 +123,11 @@ export default function Home() {
                     />
                   </div>
                   <div className="text-slate-800 leading-none flex flex-col">
-                    <span className="font-extrabold text-[16px]">Robert C</span>
+                    <span className="font-extrabold text-[16px]">
+                      {"Robert C"}
+                    </span>
                     <span className="font-normal text-[11px] ml-[1px]">
-                      Canada, USA
+                      {"Canada, USA"}
                     </span>
                   </div>
                 </div>
@@ -171,10 +149,9 @@ export default function Home() {
                   </span>
                 </div>
                 <p className="text-center max-md:hidden italic text-sm">
-                  &quot;The room was smaller than expected, and the service at
-                  the restaurant was slow. However, the location is great, and
-                  the staff was friendly. There&apos;s definitely room for
-                  improvement.&quot;
+                  {
+                    '"The room was smaller than expected, and the service at the restaurant was slow. However, the location is great, and the staff was friendly. There&apos;s definitely room for improvement".'
+                  }
                 </p>
               </div>
               <Image
@@ -187,9 +164,9 @@ export default function Home() {
               />
             </div>
             <p className="text-center max-md:pt-6 md:hidden italic text-sm">
-              &quot;The room was smaller than expected, and the service at the
-              restaurant was slow. However, the location is great, and the staff
-              was friendly. There&rsquo;s definitely room for improvement.&quot;
+              {
+                '"The room was smaller than expected, and the service at the restaurant was slow. However, the location is great, and the staff was friendly. There&apos;s definitely room for improvement".'
+              }
             </p>
           </div>
         </div>
@@ -225,24 +202,24 @@ export default function Home() {
                   ></textarea>
                 </div>
                 <button className="bg-blue-600 p-4 tracking-wider font-semibold leading-3 text-sm">
-                  Send
+                  {"Send"}
                 </button>
               </form>
             </div>
             <div>
               <h3 className="tracking-wider font-semibold leading-3 text-md uppercase">
-                Contacts
+                {"Contacts"}
               </h3>
               <div className="flex flex-col items-start justify-between h-full">
                 <address className="text-gray-400 mt-3 text-sm tracking-wider">
-                  Sababathi Fne Arts Private Limited, <br />
-                  14, Vel Road,
+                  {"Sababathi Fne Arts Private Limited,"} <br />
+                  {"14, Vel Road,"}
                   <br />
-                  Chennai - 600096. Tamilnadu. INDIA
+                  {"Chennai - 600096. Tamilnadu. INDIA"}
                   <br />
-                  Phone : +91-4562-220141, 221141
+                  {"Phone : +91-4562-220141, 221141"}
                   <br />
-                  Fax : +91-4562-223141
+                  {"Fax : +91-4562-223141"}
                   <br />
                 </address>
                 <ul className="flex gap-3 mb-3">
@@ -265,7 +242,7 @@ export default function Home() {
         </div>
         <div className="xl:max-w-[70rem] m-auto my-4">
           <p className="text-center text-gray-400 text-sm tracking-wider">
-            Copyright © Sababathi Fine Arts
+            {"Copyright © Sababathi Fine Arts"}
           </p>
         </div>
       </footer>

@@ -122,22 +122,22 @@ export default function Header() {
           <ul className="flex max-sm:hidden tracking-wide items-center justify-center gap-5 text-sm font-bold text-black mr-7">
             <li>
               <a href="#">
-                <span>Home</span>
+                <span>{"Home"}</span>
               </a>
             </li>
             <li>
               <a href="#">
-                <span>About Us</span>
+                <span>{"About Us"}</span>
               </a>
             </li>
             <li>
               <a href="#">
-                <span>Products</span>
+                <span>{"Products"}</span>
               </a>
             </li>
             <li>
               <a href="#">
-                <span>Contact Us</span>
+                <span>{"Contact Us"}</span>
               </a>
             </li>
           </ul>
