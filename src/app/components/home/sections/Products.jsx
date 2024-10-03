@@ -8,7 +8,7 @@ export default function Products() {
                 id="our-products"
             >
                 <h3 className="font-bebas-neue-regular text-center font-extrabold tracking-widest text-[#e90388] text-xl">
-                    {"Products"}
+                    {"Our Products"}
                 </h3>
                 <div className="grid grid-cols-3 max-sm:grid-cols-1 max-sm:grid-rows-5 items-center justify-center text-sm mt-7 gap-10">
                     <div className="w-full h-full flex flex-col gap-4 items-center justify-between font-bold shadow-xl p-5 rounded-md bg-[#e7ebee]">

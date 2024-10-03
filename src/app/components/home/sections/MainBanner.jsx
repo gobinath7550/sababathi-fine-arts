@@ -44,6 +44,24 @@ export default function MainBenner() {
         backgroundImage: `url(${currentImage})`,
     };
 
+    const handleScroll = (event, targetId) => {
+        event.preventDefault();
+
+        const targetElement = document.getElementById(targetId);
+        const headerHeight = document.querySelector("header").offsetHeight; // Get the header height
+
+        if (targetElement) {
+            const elementPosition =
+                targetElement.getBoundingClientRect().top +
+                window.pageYOffset -
+                headerHeight;
+            window.scrollTo({
+                top: elementPosition,
+                behavior: "smooth",
+            });
+        }
+    };
+
     return (
         <div
             style={backgroundStyle}
@@ -64,7 +82,10 @@ export default function MainBenner() {
                     </div>
                 </div>
                 <div className="text-white flex items-center justify-center">
-                    <a className="tracking-[0.2em] text-[11px] max-sm:text-[9px] leading-none border-[1px] border-white rounded-full p-3 px-5 hover:bg-[#e90388] uppercase cursor-pointer">
+                    <a
+                        onClick={(e) => handleScroll(e, "about-us")}
+                        className="tracking-[0.2em] text-[11px] max-sm:text-[9px] leading-none border-[1px] border-white rounded-full p-3 px-5 hover:bg-[#e90388] uppercase cursor-pointer"
+                    >
                         Read More
                     </a>
                 </div>
