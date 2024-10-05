@@ -3,10 +3,7 @@ import Image from "next/image";
 export default function Products() {
     return (
         <div className="bg-white">
-            <div
-                className="xl:max-w-[70rem] m-auto p-10 pb-14"
-                id="our-products"
-            >
+            <div className="xl:max-w-[70rem] m-auto p-10 pb-14">
                 <h3 className="font-bebas-neue-regular text-center font-extrabold tracking-widest text-[#e90388] text-xl">
                     {"Our Products"}
                 </h3>

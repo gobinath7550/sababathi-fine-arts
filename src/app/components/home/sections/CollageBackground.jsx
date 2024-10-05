@@ -3,7 +3,7 @@ import { RightArrow } from "../../svg-icons/Svg";
 
 export default function CollageBackground() {
     return (
-        <div className="bg-white relative overflow-hidden">
+        <div className="bg-white relative overflow-hidden" id="our-products">
             <div className="absolute inset-0">
                 <div className="grid grid-cols-3">
                     <div className="col-span-2">
@@ -48,7 +48,10 @@ export default function CollageBackground() {
                             {"Artistic Packaging Designs"}
                         </h1>
                         <div className="flex w-full items-center text-[#e90388] pt-3 justify-start">
-                            <a className="tracking-[0.2em] text-lg uppercase cursor-pointer flex items-center justify-center gap-3 max-sm:gap-2 max-sm:text-[10px]">
+                            <a
+                                href="/products"
+                                className="tracking-[0.2em] text-lg uppercase cursor-pointer flex items-center justify-center gap-3 max-sm:gap-2 max-sm:text-[10px]"
+                            >
                                 <span className="leading-none block">
                                     {"View Products"}
                                 </span>

@@ -37,7 +37,7 @@ const NavLink = ({ href, title, onClick }) => {
     );
 };
 
-export default function Header() {
+export default function Header({ urlPath }) {
     const [isOpenMobileMenu, setIsOpenMobileMenu] = useState(false);
     const mobileMenuRef = useRef(null);
 
@@ -55,7 +55,6 @@ export default function Header() {
 
         const targetElement = document.getElementById(targetId);
         const headerHeight = document.querySelector("header").offsetHeight; // Get the header height
-
         if (targetElement) {
             const elementPosition =
                 targetElement.getBoundingClientRect().top +
@@ -102,16 +101,22 @@ export default function Header() {
                     </div>
                     <nav className="flex flex-col sm:hidden tracking-widest w-full text-sm font-bold text-white font-sans px-2 gap-2">
                         <NavLink href={"/"} title={"Home"} />
-                        <NavLink
-                            href={"#about-us"}
-                            title={"About Us"}
-                            onClick={(e) => handleScroll(e, "about-us")}
-                        />
-                        <NavLink
-                            href={"#our-products"}
-                            title={"Products"}
-                            onClick={(e) => handleScroll(e, "our-products")}
-                        />
+                        {urlPath != "/products" && (
+                            <>
+                                <NavLink
+                                    href={"#about-us"}
+                                    title={"About Us"}
+                                    onClick={(e) => handleScroll(e, "about-us")}
+                                />
+                                <NavLink
+                                    href={"#our-products"}
+                                    title={"Products"}
+                                    onClick={(e) =>
+                                        handleScroll(e, "our-products")
+                                    }
+                                />
+                            </>
+                        )}
                         <NavLink
                             href={"#contact-us"}
                             title={"Contact Us"}
@@ -158,16 +163,22 @@ export default function Header() {
                     </div>
                     <nav className="flex max-sm:hidden tracking-widest items-center justify-center gap-5 text-sm font-bold text-black mr-7 font-sans">
                         <NavLink href={"/"} title={"Home"} />
-                        <NavLink
-                            href={"#about-us"}
-                            title={"About Us"}
-                            onClick={(e) => handleScroll(e, "about-us")}
-                        />
-                        <NavLink
-                            href={"#our-products"}
-                            title={"Products"}
-                            onClick={(e) => handleScroll(e, "our-products")}
-                        />
+                        {urlPath != "/products" && (
+                            <>
+                                <NavLink
+                                    href={"#about-us"}
+                                    title={"About Us"}
+                                    onClick={(e) => handleScroll(e, "about-us")}
+                                />
+                                <NavLink
+                                    href={"#our-products"}
+                                    title={"Products"}
+                                    onClick={(e) =>
+                                        handleScroll(e, "our-products")
+                                    }
+                                />
+                            </>
+                        )}
                         <NavLink
                             href={"#contact-us"}
                             title={"Contact Us"}

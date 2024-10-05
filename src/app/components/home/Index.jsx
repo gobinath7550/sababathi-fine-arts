@@ -18,7 +18,6 @@ export default function Home() {
                 <Visions />
                 <OurServices />
                 <CollageBackground />
-                {/* <Products /> */}
             </main>
             <Footer />
         </div>
