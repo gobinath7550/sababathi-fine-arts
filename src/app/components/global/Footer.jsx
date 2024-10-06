@@ -94,7 +94,7 @@ export default function Footer() {
             </div>
             <div className="xl:max-w-[70rem] m-auto my-4">
                 <p className="text-center text-gray-400 text-xs tracking-wider">
-                    {"Copyright © Sababathi Fine Arts"}
+                    {"Copyrights © Sabapathi Fine Arts"}
                 </p>
             </div>
         </footer>
