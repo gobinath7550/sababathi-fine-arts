@@ -9,7 +9,7 @@ export default function Footer() {
     return (
         <footer className="bg-slate-900 text-[#e90388] w-full" id="contact-us">
             <div className="xl:max-w-[70rem] m-auto p-7">
-                <div className="grid grid-cols-2 max-md:grid-cols-1 gap-10">
+                <div className="grid grid-cols-3 max-md:grid-cols-1 gap-10">
                     <div className="px-4 flex flex-col gap-3">
                         <h3 className="tracking-wider font-bebas-neue-regular leading-none font-semibold text-md uppercase">
                             {"For Orders and Queries"}
@@ -76,6 +76,19 @@ export default function Footer() {
                                 </li>
                             </ul>
                         </div>
+                    </div>
+                    <div className="px-4 flex flex-col gap-3">
+                        <h3 className="tracking-wider font-bebas-neue-regular font-semibold text-md uppercase leading-none">
+                            {"Find US On"}
+                        </h3>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62973.39145719561!2d77.48651913248342!3d9.435693737320683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06e9d81e881141%3A0x88715d9fca958e45!2sPSK%20Nagar%2C%20Srirengapalayam%2C%20Rajapalayam%2C%20Tamil%20Nadu%20626117!5e0!3m2!1sen!2sin!4v1728188258794!5m2!1sen!2sin"
+                            width="auto"
+                            height="auto"
+                            allowfullscreen="true"
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
                     </div>
                 </div>
             </div>
