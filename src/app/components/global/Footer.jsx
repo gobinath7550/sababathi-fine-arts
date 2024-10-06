@@ -82,10 +82,10 @@ export default function Footer() {
                             {"Find US On"}
                         </h3>
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62973.39145719561!2d77.48651913248342!3d9.435693737320683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06e9d81e881141%3A0x88715d9fca958e45!2sPSK%20Nagar%2C%20Srirengapalayam%2C%20Rajapalayam%2C%20Tamil%20Nadu%20626117!5e0!3m2!1sen!2sin!4v1728188258794!5m2!1sen!2sin"
+                            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d352.43244153533857!2d77.81026110812232!3d9.455661697325956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOcKwMjcnMjAuMyJOIDc3wrA0OCczNy4wIkU!5e1!3m2!1sen!2sin!4v1728194815178!5m2!1sen!2sin"
                             width="auto"
                             height="auto"
-                            allowfullscreen="true"
+                            allowfullscreen=""
                             loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"
                         ></iframe>
