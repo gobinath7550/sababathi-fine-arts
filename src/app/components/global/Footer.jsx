@@ -10,8 +10,8 @@ export default function Footer() {
         <footer className="bg-slate-900 text-[#e90388] w-full" id="contact-us">
             <div className="xl:max-w-[70rem] m-auto p-7">
                 <div className="grid grid-cols-3 max-md:grid-cols-1 gap-10">
-                    <div className="px-4 flex flex-col gap-3">
-                        <h3 className="tracking-wider font-bebas-neue-regular leading-none font-semibold text-md uppercase">
+                    <div className="px-4 flex flex-col gap-6">
+                        <h3 className="tracking-wider text-base leading-none font-semibold">
                             {"For Orders and Queries"}
                         </h3>
                         <form
@@ -40,13 +40,13 @@ export default function Footer() {
                                     placeholder="Feedback"
                                 ></textarea>
                             </div>
-                            <button className="bg-[#e90388] text-white p-3 tracking-widest font-semibold leading-3 text-sm font-bebas-neue-regular">
+                            <button className="bg-[#e90388] text-white p-3 tracking-widest font-semibold leading-3 text-sm font-carattere">
                                 {"Send"}
                             </button>
                         </form>
                     </div>
                     <div className="px-4 flex flex-col gap-2">
-                        <h3 className="tracking-wider font-bebas-neue-regular font-semibold text-md uppercase leading-none">
+                        <h3 className="tracking-wider text-base leading-none font-semibold">
                             {"Contacts"}
                         </h3>
                         <div className="flex flex-col gap-6 items-start justify-between h-full">
@@ -78,7 +78,7 @@ export default function Footer() {
                         </div>
                     </div>
                     <div className="px-4 flex flex-col gap-3">
-                        <h3 className="tracking-wider font-bebas-neue-regular font-semibold text-md uppercase leading-none">
+                        <h3 className="tracking-wider text-base leading-none font-semibold">
                             {"Find US On"}
                         </h3>
                         <iframe

@@ -32,7 +32,7 @@ const NavLink = ({ href, title, onClick }) => {
             onClick={onClick}
             className="border-b-[1px] border-transparent hover:border-black transition-all text-[11px]"
         >
-            <span className="uppercase">{title}</span>
+            <span>{title}</span>
         </a>
     );
 };
@@ -143,11 +143,11 @@ export default function Header({ urlPath }) {
                 <div className="flex justify-between items-center max-xl:mx-4">
                     <div className="flex gap-2 items-center justify-center">
                         <MainLogo />
-                        <div className="flex flex-col divide-y-[1px] divide-black tracking-widest">
-                            <span className="font-bold text-[#e90388]">
+                        <div className="flex flex-col divide-y-[1px] divide-gray-800">
+                            <span className="text-[#e90388] font-['Carattere'] tracking-wide leading-none text-[1.5rem]">
                                 {"Sabapathi Fine Arts"}
                             </span>
-                            <span className="text-[11px] text-black px-[1.2px]">
+                            <span className="text-[11px] text-gray-800 font-bold tracking-widest px-[1.2px]">
                                 {"sabapathifinearts@gmail.com"}
                             </span>
                         </div>
@@ -158,7 +158,7 @@ export default function Header({ urlPath }) {
                             title="Mobile Menu Open"
                             onClick={() => setIsOpenMobileMenu(true)}
                         >
-                            <MobileMenu />
+                            <MobileMenu className={"stroke-gray-800"} />
                         </button>
                     </div>
                     <nav className="flex max-sm:hidden tracking-widest items-center justify-center gap-5 text-sm font-bold text-black mr-7 font-sans">

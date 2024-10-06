@@ -9,15 +9,17 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --foreground: #0a0a0a;
-        --background: #ededed;
+        --font-carattere: "Carattere", serif;
+        --font-lobster: "Lobster", serif;
+        --font-open_sans: "Open Sans", serif;
     }
 }
 
 body {
     color: var(--foreground);
     background: var(--background);
-    font-family: var(--font-geist-mono-vf);
+    font-family: var(--font-open_sans);
+    font-size: 48px;
 }
 
 .text-shadow {
@@ -27,9 +29,5 @@ body {
 @layer utilities {
     .text-balance {
         text-wrap: balance;
-    }
-
-    .font-bebas-neue-regular {
-        font-family: var(--font-bebas-neue-regular);
     }
 }

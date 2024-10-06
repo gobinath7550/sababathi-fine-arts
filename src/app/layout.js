@@ -1,23 +1,23 @@
-import localFont from "next/font/local";
 import "./globals.css";
-
-const geistMonoVF = localFont({
-    src: "./fonts/GeistMonoVF.woff",
-    variable: "--font-geist-mono-vf",
-    weight: "100 900",
-});
-
-const bebasNeueRegular = localFont({
-    src: "./fonts/bebas-neue/BebasNeue-Regular.woff",
-    variable: "--font-bebas-neue-regular",
-    weight: "100 900",
-});
 
 export default function RootLayout({ children }) {
     return (
         <html lang="en" className="scroll-smooth">
             <head>
                 <title>Sabapathi Fine Arts</title>
+                <meta charset="utf-8" />
+                <link
+                    rel="stylesheet"
+                    href="https://fonts.googleapis.com/css?family=Carattere"
+                />
+                <link
+                    rel="stylesheet"
+                    href="https://fonts.googleapis.com/css?family=Lobster"
+                />
+                <link
+                    rel="stylesheet"
+                    href="https://fonts.googleapis.com/css?family=Open Sans"
+                />
                 <meta
                     name="description"
                     content="Sabapathi Fine Arts – Welcome to Sabapathi Fine Arts, your trusted partner for premium printing solutions. We specialize in delivering high-quality, customized printing services to businesses and individuals. From business cards and brochures to large-format banners and packaging, our state-of-the-art equipment ensures sharp, vibrant, and durable prints. Explore our wide range of services and let us bring your vision to life with exceptional results, fast turnaround times, and outstanding customer service."
@@ -39,11 +39,7 @@ export default function RootLayout({ children }) {
                     content="https://sababathi-fine-arts.vercel.app/"
                 />
             </head>
-            <body
-                className={`${geistMonoVF.variable} ${bebasNeueRegular.variable} antialiased`}
-            >
-                {children}
-            </body>
+            <body className={`antialiased`}>{children}</body>
         </html>
     );
 }

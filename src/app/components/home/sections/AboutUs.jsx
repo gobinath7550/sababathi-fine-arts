@@ -2,7 +2,7 @@ export default function AboutUs() {
     return (
         <div className="bg-white">
             <div className="xl:max-w-[70rem] m-auto p-10" id="about-us">
-                <h3 className="font-bebas-neue-regular font-extrabold leading-none tracking-widest text-[#e90388] text-xl border-b-[1px] border-gray-800 pb-1">
+                <h3 className="font-carattere font-extrabold leading-none tracking-widest text-[#e90388] text-xl border-b-[1px] border-gray-800 pb-1">
                     {"About US"}
                 </h3>
                 <p className="text-xs text-gray-800 mt-1 leading-5 text-justify indent-11">

@@ -69,25 +69,25 @@ export default function MainBenner() {
         >
             <div className="bg-black/70 py-14 sm:py-20 md:py-32 flex flex-col items-center justify-center gap-5 max-sm:gap-0">
                 <div className="xl:max-w-[70rem] m-auto p-7">
-                    <div className="flex flex-col items-center justify-center gap-4">
-                        <h1 className="font-extrabold text-[calc(100vw-93vw)] text-center leading-none text-white uppercase tracking-widest text-shadow font-bebas-neue-regular">
+                    <div className="flex flex-col items-center justify-center gap-6">
+                        <h1 className="text-[calc(100vw-91vw)] text-center leading-none text-white tracking-widest text-shadow font-['Carattere']">
                             {"Your "}
                             <span className="text-[#e90388]">{"Vision"}</span>
                             {", Our "}
                             <span className="text-[#e90388]">{"Ink"}</span>
                         </h1>
-                        <h1 className="font-extrabold text-sm max-sm:text-xs text-center leading-none text-white  text-shadow uppercase tracking-[0.2em]">
+                        <h1 className="font-extrabold text-base max-sm:text-[11px] text-center leading-none text-white text-shadow tracking-wider">
                             {"We’re here to make your print dreams a reality."}
                         </h1>
+                        <div className="text-white flex items-center justify-center sm:pt-5">
+                            <a
+                                onClick={(e) => handleScroll(e, "about-us")}
+                                className="text-sm tracking-wider font-extrabold max-sm:text-[9px] leading-none border-2 border-white rounded-full p-3 px-4 hover:bg-[#e90388] cursor-pointer"
+                            >
+                                Read More
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <div className="text-white flex items-center justify-center">
-                    <a
-                        onClick={(e) => handleScroll(e, "about-us")}
-                        className="tracking-[0.2em] text-[11px] max-sm:text-[9px] leading-none border-[1px] border-white rounded-full p-3 px-5 hover:bg-[#e90388] uppercase cursor-pointer"
-                    >
-                        Read More
-                    </a>
                 </div>
             </div>
         </div>

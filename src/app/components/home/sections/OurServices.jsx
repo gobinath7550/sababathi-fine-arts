@@ -4,7 +4,7 @@ export default function OurServices() {
     return (
         <div className="bg-slate-900">
             <div className="xl:max-w-[70rem] m-auto p-10 pb-14">
-                <h3 className="font-bebas-neue-regular text-center font-extrabold tracking-widest text-[#e90388] text-xl">
+                <h3 className="font-carattere text-center font-extrabold tracking-widest text-[#e90388] text-xl">
                     {"Our Services"}
                 </h3>
                 <div className="grid grid-cols-3 max-sm:grid-cols-1 max-sm:grid-rows-5 items-center justify-center text-sm mt-7 gap-10">

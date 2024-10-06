@@ -110,10 +110,10 @@ const Heart_Negative = ({}) => {
     );
 };
 
-const MobileMenu = ({}) => {
+const MobileMenu = ({ className }) => {
     return (
         <svg
-            className="stroke-black"
+            className={className}
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
         >
