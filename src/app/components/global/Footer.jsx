@@ -61,11 +61,22 @@ export default function Footer() {
                                 <br />
                                 {"Phone : +91 8870342863"}
                             </address>
-                            <ul className="flex gap-3 mb-3">
-                                <li className="bg-[#0d0029] group cursor-pointer hover:bg-[#e90388] border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[8px] shadow-xl w-10 h-10 transition-all">
-                                    <WhatsApp_Svg />
-                                </li>
-                                <li className="bg-[#0d0029] group cursor-pointer hover:bg-[#e90388] border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[8px] shadow-xl w-10 h-10 transition-all">
+                            <nav className="flex gap-3 mb-3">
+                                <a
+                                    href="https://wa.me/+918870342863"
+                                    target="_blank"
+                                    className="flex items-center justify-center gap-2"
+                                >
+                                    <span className="bg-[#0d0029] group cursor-pointer hover:bg-[#e90388] border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[8px] shadow-xl transition-all w-10 h-10 block">
+                                        <WhatsApp_Svg
+                                            className={"fill-white"}
+                                        />
+                                    </span>
+                                    <span className="text-white text-sm tracking-wider">
+                                        {"WhatsApp"}
+                                    </span>
+                                </a>
+                                {/* <li className="bg-[#0d0029] group cursor-pointer hover:bg-[#e90388] border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[8px] shadow-xl w-10 h-10 transition-all">
                                     <Instagram_Svg />
                                 </li>
                                 <li className="bg-[#0d0029] group cursor-pointer hover:bg-[#e90388] border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[8px] shadow-xl w-10 h-10 transition-all">
@@ -73,8 +84,8 @@ export default function Footer() {
                                 </li>
                                 <li className="bg-[#0d0029] group cursor-pointer hover:bg-[#e90388] border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[8px] shadow-xl w-10 h-10 transition-all">
                                     <Youtube_Svg />
-                                </li>
-                            </ul>
+                                </li> */}
+                            </nav>
                         </div>
                     </div>
                     <div className="px-4 flex flex-col gap-3">

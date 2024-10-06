@@ -1,7 +1,7 @@
-const WhatsApp_Svg = ({}) => {
+const WhatsApp_Svg = ({ className }) => {
     return (
         <svg
-            className="fill-white"
+            className={className}
             viewBox="0 0 16 16"
             xmlns="http://www.w3.org/2000/svg"
         >

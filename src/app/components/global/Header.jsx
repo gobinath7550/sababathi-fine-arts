@@ -99,7 +99,7 @@ export default function Header({ urlPath }) {
                             <Close className="fill-white stroke-none" />
                         </button>
                     </div>
-                    <nav className="flex flex-col sm:hidden tracking-widest w-full text-sm font-bold text-white font-sans px-2 gap-2">
+                    <nav className="flex flex-col sm:hidden tracking-widest w-full text-sm font-bold text-white px-2 gap-2">
                         <NavLink href={"/"} title={"Home"} />
                         {urlPath != "/products" && (
                             <>
@@ -123,11 +123,20 @@ export default function Header({ urlPath }) {
                             onClick={(e) => handleScroll(e, "contact-us")}
                         />
                     </nav>
-                    <ul className="flex gap-3 w-full px-1">
-                        <li className="bg-[#0d0029] group cursor-pointer hover:bg-[#e90388] border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[8px] shadow-xl w-10 h-10 transition-all flex">
-                            <WhatsApp_Svg />
-                        </li>
-                        <li className="bg-[#0d0029] group cursor-pointer hover:bg-[#e90388] border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[8px] shadow-xl w-10 h-10 transition-all flex">
+                    <nav className="flex gap-3 w-full px-1">
+                        <a
+                            href="https://wa.me/+918870342863"
+                            target="_blank"
+                            className="flex items-center justify-center gap-2"
+                        >
+                            <span className="bg-[#0d0029] group cursor-pointer hover:bg-[#e90388] border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[8px] shadow-xl transition-all w-10 h-10 block">
+                                <WhatsApp_Svg className={"fill-white"} />
+                            </span>
+                            <span className="text-white text-xs tracking-wider">
+                                {"WhatsApp"}
+                            </span>
+                        </a>
+                        {/* <li className="bg-[#0d0029] group cursor-pointer hover:bg-[#e90388] border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[8px] shadow-xl w-10 h-10 transition-all flex">
                             <Instagram_Svg />
                         </li>
                         <li className="bg-[#0d0029] group cursor-pointer hover:bg-[#e90388] border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[8px] shadow-xl w-10 h-10 transition-all flex">
@@ -135,8 +144,8 @@ export default function Header({ urlPath }) {
                         </li>
                         <li className="bg-[#0d0029] group cursor-pointer hover:bg-[#e90388] border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[8px] shadow-xl w-10 h-10 transition-all flex">
                             <Youtube_Svg />
-                        </li>
-                    </ul>
+                        </li> */}
+                    </nav>
                 </div>
             </div>
             <div className="m-auto xl:max-w-[70rem] py-3">
@@ -161,7 +170,7 @@ export default function Header({ urlPath }) {
                             <MobileMenu className={"stroke-gray-800"} />
                         </button>
                     </div>
-                    <nav className="flex max-sm:hidden tracking-widest items-center justify-center gap-5 text-sm font-bold text-black mr-7 font-sans">
+                    <nav className="flex max-sm:hidden tracking-widest items-center justify-center gap-5 text-sm font-bold text-black mr-7">
                         <NavLink href={"/"} title={"Home"} />
                         {urlPath != "/products" && (
                             <>
