@@ -41,11 +41,8 @@ export default function CollageBackground() {
                     <div className="flex flex-col items-center justify-start gap-2 font-carattere bg-white/80 p-5 text-[calc(100vw-97vw)] text-gray-900">
                         <h1 className="w-full tracking-wider">
                             {
-                                "Printing Solutions for Restaurants, Medical Offices, and Retailers"
+                                "We provide premium quality printing service for notebooks, food packaging labels and boxes, sweet and bakery boxes, pharma labels and boxes, and other trademark businesses"
                             }
-                        </h1>
-                        <h1 className="w-full tracking-wider">
-                            {"Artistic Packaging Designs"}
                         </h1>
                         <div className="flex w-full items-center text-[#e90388] pt-3 justify-start">
                             <a

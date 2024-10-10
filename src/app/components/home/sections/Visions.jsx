@@ -5,7 +5,7 @@ export default function Visions() {
         <div className="bg-white">
             <div className="xl:max-w-[70rem] m-auto p-10 pb-14">
                 <h3 className="font-carattere text-center font-extrabold tracking-widest text-[#e90388] text-xl">
-                    {"Visions"}
+                    {"Our  Vision"}
                 </h3>
                 <div className="grid grid-cols-3 max-sm:grid-cols-1 max-sm:grid-rows-3 items-center justify-center text-sm mt-7 gap-10">
                     <div className="w-full h-full font-bold flex flex-col items-center justify-center border-[1px] border-[#b52806] gap-3 p-3 rounded-2xl">

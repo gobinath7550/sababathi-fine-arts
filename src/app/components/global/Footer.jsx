@@ -88,7 +88,7 @@ export default function Footer() {
                             </nav>
                         </div>
                     </div>
-                    <div className="px-4 flex flex-col gap-3">
+                    {/* <div className="px-4 flex flex-col gap-3">
                         <h3 className="tracking-wider text-base leading-none font-semibold">
                             {"Find US On"}
                         </h3>
@@ -100,7 +100,7 @@ export default function Footer() {
                             loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"
                         ></iframe>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <div className="xl:max-w-[70rem] m-auto my-4">
