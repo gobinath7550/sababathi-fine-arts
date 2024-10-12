@@ -38,12 +38,12 @@ export default function CollageBackground() {
             </div>
             <div className="relative z-10 flex flex-col items-center justify-center gap-5 max-sm:gap-0">
                 <div className="xl:max-w-[70rem] m-auto p-10">
-                    <div className="flex flex-col items-center justify-start gap-2 font-carattere bg-white/80 p-5 text-lg sm:text-xl text-gray-900">
-                        <h1 className="w-full tracking-wider">
+                    <div className="flex flex-col items-center justify-start gap-2 font-carattere bg-white/80 p-5 text-gray-900">
+                        <h2 className="w-full tracking-wider text-lg max-sm:text-sm">
                             {
                                 "We provide premium quality printing service for notebooks, food packaging labels and boxes, sweet and bakery boxes, pharma labels and boxes, and other trademark businesses"
                             }
-                        </h1>
+                        </h2>
                         <div className="flex w-full items-center text-[#e90388] pt-3 justify-start">
                             <a
                                 href="/products"
