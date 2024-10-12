@@ -7,4 +7,6 @@ export {
     Heart_Negative,
     MobileMenu,
     Close,
+    Call,
+    Email,
 } from "./Svg";

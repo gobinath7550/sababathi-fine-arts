@@ -67,7 +67,7 @@ const GoogleForm = () => {
     return (
         <form
             onSubmit={handleSubmit}
-            className="flex relative flex-col justify-between h-full gap-2 text-xs sm:text-[0.875rem]"
+            className="grid relative grid-cols-2 justify-between h-full gap-2 text-xs sm:text-[0.875rem]"
         >
             {alert?.type === "success" && (
                 <div className="absolute top-0 inset-x-0 font-extrabold flex items-center justify-center">
@@ -83,7 +83,7 @@ const GoogleForm = () => {
                     </span>
                 </div>
             )}
-            <label className="flex flex-col gap-1 text-gray-300">
+            <label className="flex flex-col gap-1 max-md:col-span-2 text-gray-300">
                 Name:
                 <input
                     type="text"
@@ -94,7 +94,7 @@ const GoogleForm = () => {
                     required
                 />
             </label>
-            <label className="flex flex-col gap-1 text-gray-300">
+            <label className="flex flex-col gap-1 max-md:col-span-2 text-gray-300">
                 Email:
                 <input
                     type="email"
@@ -105,7 +105,7 @@ const GoogleForm = () => {
                     required
                 />
             </label>
-            <label className="flex flex-col gap-1 text-gray-300">
+            <label className="flex flex-col gap-1 col-span-2 text-gray-300">
                 Message:
                 <textarea
                     name="message"
@@ -118,7 +118,7 @@ const GoogleForm = () => {
             {isLoading && (
                 <button
                     type="button"
-                    className="bg-[#e90388] text-gray-300 p-3 tracking-widest font-semibold leading-3 font-carattere flex items-center justify-center"
+                    className="bg-[#e90388] text-gray-300 p-3 tracking-widest font-semibold leading-3 font-carattere flex items-center justify-center col-span-2"
                 >
                     <span className="block w-4 h-4 border-l-2 border-white animate-spin rounded-full"></span>
                 </button>
@@ -126,7 +126,7 @@ const GoogleForm = () => {
             {!isLoading && (
                 <button
                     type="submit"
-                    className="bg-[#e90388] text-gray-300 p-3 tracking-widest font-semibold leading-3 font-carattere flex items-center justify-center min-h-10"
+                    className="bg-[#e90388] text-gray-300 p-3 tracking-widest font-semibold leading-3 font-carattere flex items-center justify-center min-h-10 col-span-2"
                 >
                     <span>{"Submit"}</span>
                 </button>
