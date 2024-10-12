@@ -5,6 +5,8 @@ import {
     Instagram_Svg,
     Facebook_Svg,
     Youtube_Svg,
+    Call,
+    Email,
     Close,
 } from "../svg-icons";
 import { useEffect, useState, useRef } from "react";
@@ -125,15 +127,30 @@ export default function Header({ urlPath }) {
                     </nav>
                     <nav className="flex gap-3 w-full px-1">
                         <a
+                            href="https://mail.google.com/mail/?view=cm&fs=1&to=sabapathifinearts@gmail.com"
+                            target="_blank"
+                            className="flex items-center justify-start gap-2"
+                        >
+                            <span className="bg-[#0d0029] group cursor-pointer hover:bg-[#e90388] border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[5px] shadow-xl transition-all w-8 h-8 block">
+                                <Email className={"fill-none stroke-white"} />
+                            </span>
+                        </a>
+                        <a
                             href="https://wa.me/+918870342863"
                             target="_blank"
-                            className="flex items-center justify-center gap-2"
+                            className="flex items-center justify-start gap-2"
                         >
-                            <span className="bg-[#0d0029] group cursor-pointer hover:bg-[#e90388] border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[8px] shadow-xl transition-all w-10 h-10 block">
+                            <span className="bg-[#0d0029] group cursor-pointer hover:bg-[#e90388] border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[5px] shadow-xl transition-all w-8 h-8 block">
                                 <WhatsApp_Svg className={"fill-white"} />
                             </span>
-                            <span className="text-white text-xs tracking-wider font-coinage-caps-kruger-gray">
-                                {"Whats App"}
+                        </a>
+                        <a
+                            href="tel:918870342863"
+                            target="_blank"
+                            className="flex items-center justify-start gap-2"
+                        >
+                            <span className="bg-[#0d0029] group cursor-pointer hover:bg-[#e90388] border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[5px] shadow-xl transition-all w-8 h-8 block">
+                                <Call className={"fill-white"} />
                             </span>
                         </a>
                         {/* <li className="bg-[#0d0029] group cursor-pointer hover:bg-[#e90388] border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[8px] shadow-xl w-10 h-10 transition-all flex">
