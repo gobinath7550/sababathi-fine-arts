@@ -4,7 +4,7 @@ export default function Visions() {
     return (
         <div className="bg-white">
             <div className="xl:max-w-[70rem] m-auto p-10 pb-14">
-                <h3 className="font-carattere text-center font-extrabold tracking-widest text-[#e90388] text-xl">
+                <h3 className="font-coinage-caps-kruger-gray text-center font-extrabold tracking-widest text-[#e90388] text-xl">
                     {"Our  Vision"}
                 </h3>
                 <div className="grid grid-cols-3 max-sm:grid-cols-1 max-sm:grid-rows-3 items-center justify-center text-sm mt-7 gap-10">
@@ -18,7 +18,7 @@ export default function Visions() {
                             priority
                         />
                         <div className="rounded-e-full">
-                            <h3 className="leading-none capitalize text-[#b52806]">
+                            <h3 className="leading-none capitalize text-[#b52806] text-xs sm:text-[0.975rem]">
                                 {"Best Quality"}
                             </h3>
                         </div>
@@ -33,7 +33,7 @@ export default function Visions() {
                             priority
                         />
                         <div className="rounded-e-full">
-                            <h3 className="leading-none capitalize text-[#2a698a]">
+                            <h3 className="leading-none capitalize text-[#2a698a] text-xs sm:text-[0.975rem]">
                                 {"Customer centered service"}
                             </h3>
                         </div>
@@ -48,7 +48,7 @@ export default function Visions() {
                             priority
                         />
                         <div className="rounded-e-full">
-                            <h3 className="leading-none capitalize text-[#f7ae3c]">
+                            <h3 className="leading-none capitalize text-[#f7ae3c] text-xs sm:text-[0.975rem]">
                                 {"On Time Delivery"}
                             </h3>
                         </div>

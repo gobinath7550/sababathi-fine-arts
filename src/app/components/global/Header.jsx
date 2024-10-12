@@ -30,7 +30,7 @@ const NavLink = ({ href, title, onClick }) => {
             href={href}
             title={title}
             onClick={onClick}
-            className="border-b-[1px] border-transparent hover:border-black transition-all text-[11px]"
+            className="border-b-[1px] border-transparent hover:border-black transition-all"
         >
             <span>{title}</span>
         </a>
@@ -99,7 +99,7 @@ export default function Header({ urlPath }) {
                             <Close className="fill-white stroke-none" />
                         </button>
                     </div>
-                    <nav className="flex flex-col sm:hidden tracking-widest w-full text-sm font-bold text-white px-2 gap-2">
+                    <nav className="flex flex-col sm:hidden tracking-widest w-full text-sm font-bold text-white px-2 gap-2 font-coinage-caps-kruger-gray">
                         <NavLink href={"/"} title={"Home"} />
                         {urlPath != "/products" && (
                             <>
@@ -132,8 +132,8 @@ export default function Header({ urlPath }) {
                             <span className="bg-[#0d0029] group cursor-pointer hover:bg-[#e90388] border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[8px] shadow-xl transition-all w-10 h-10 block">
                                 <WhatsApp_Svg className={"fill-white"} />
                             </span>
-                            <span className="text-white text-xs tracking-wider">
-                                {"WhatsApp"}
+                            <span className="text-white text-xs tracking-wider font-coinage-caps-kruger-gray">
+                                {"Whats App"}
                             </span>
                         </a>
                         {/* <li className="bg-[#0d0029] group cursor-pointer hover:bg-[#e90388] border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[8px] shadow-xl w-10 h-10 transition-all flex">
@@ -157,7 +157,7 @@ export default function Header({ urlPath }) {
                                 {"Sabapathi Fine Arts"}
                             </span>
                             <span className="text-[11px] text-gray-800 font-bold tracking-widest px-[1.2px]">
-                                {"sabapathifinearts@gmail.com"}
+                                {"Best quality offset printing"}
                             </span>
                         </div>
                     </div>
@@ -170,7 +170,7 @@ export default function Header({ urlPath }) {
                             <MobileMenu className={"stroke-gray-800"} />
                         </button>
                     </div>
-                    <nav className="flex max-sm:hidden tracking-widest items-center justify-center gap-5 text-sm font-bold text-black mr-7">
+                    <nav className="flex max-sm:hidden tracking-widest items-center justify-center gap-5 text-sm font-bold text-black mr-7 font-coinage-caps-kruger-gray">
                         <NavLink href={"/"} title={"Home"} />
                         {urlPath != "/products" && (
                             <>

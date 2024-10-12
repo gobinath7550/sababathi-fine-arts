@@ -1,4 +1,11 @@
+import localFont from "next/font/local";
 import "./globals.css";
+
+const coinageCapsKrugerGray = localFont({
+    src: "./fonts/CoinageCapsKrugerGray.woff",
+    variable: "--font-coinage-caps-kruger-gray",
+    weight: "100 900",
+});
 
 export default function RootLayout({ children }) {
     return (
@@ -39,7 +46,9 @@ export default function RootLayout({ children }) {
                     content="https://sababathi-fine-arts.vercel.app/"
                 />
             </head>
-            <body className={`antialiased`}>{children}</body>
+            <body className={`${coinageCapsKrugerGray.variable} antialiased`}>
+                {children}
+            </body>
         </html>
     );
 }

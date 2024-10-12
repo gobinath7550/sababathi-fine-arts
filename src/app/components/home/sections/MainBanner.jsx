@@ -76,7 +76,7 @@ export default function MainBenner() {
                             {" Our "}
                             <span className="text-[#e90388]">{"Service"}</span>
                         </h1>
-                        <h1 className="font-extrabold text-base max-sm:text-[11px] text-center leading-5 text-white text-shadow tracking-widest px-8">
+                        <h1 className="font-extrabold text-xs sm:text-[0.975rem] text-center leading-5 text-white text-shadow tracking-widest px-8">
                             {
                                 "Take your business to the next level with our top-quality printed labels."
                             }
@@ -84,7 +84,7 @@ export default function MainBenner() {
                         <div className="text-white flex items-center justify-center sm:pt-5">
                             <a
                                 onClick={(e) => handleScroll(e, "about-us")}
-                                className="text-sm tracking-widest font-extrabold max-sm:text-[9px] leading-none border-2 border-white rounded-full p-2 px-4 hover:bg-[#e90388] cursor-pointer"
+                                className="text-sm tracking-widest font-extrabold max-sm:text-[9px] leading-none border-2 border-white rounded-full p-3 px-5 hover:bg-[#e90388] cursor-pointer"
                             >
                                 Read More
                             </a>

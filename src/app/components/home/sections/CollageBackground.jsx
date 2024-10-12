@@ -5,7 +5,7 @@ export default function CollageBackground() {
     return (
         <div className="bg-white relative overflow-hidden" id="our-products">
             <div className="absolute inset-0">
-                <div className="grid grid-cols-3">
+                <div className="grid grid-cols-3 h-full">
                     <div className="col-span-2">
                         <Image
                             src="/images/products/burger-boxes.png"
@@ -38,7 +38,7 @@ export default function CollageBackground() {
             </div>
             <div className="relative z-10 flex flex-col items-center justify-center gap-5 max-sm:gap-0">
                 <div className="xl:max-w-[70rem] m-auto p-10">
-                    <div className="flex flex-col items-center justify-start gap-2 font-carattere bg-white/80 p-5 text-[calc(100vw-97vw)] text-gray-900">
+                    <div className="flex flex-col items-center justify-start gap-2 font-carattere bg-white/80 p-5 text-lg sm:text-xl text-gray-900">
                         <h1 className="w-full tracking-wider">
                             {
                                 "We provide premium quality printing service for notebooks, food packaging labels and boxes, sweet and bakery boxes, pharma labels and boxes, and other trademark businesses"
@@ -47,7 +47,7 @@ export default function CollageBackground() {
                         <div className="flex w-full items-center text-[#e90388] pt-3 justify-start">
                             <a
                                 href="/products"
-                                className="tracking-wider text-lg cursor-pointer flex items-center justify-center gap-3 max-sm:gap-2 max-sm:text-[10px]"
+                                className="tracking-wider cursor-pointer flex items-center justify-center gap-3 max-sm:gap-2 text-lg sm:text-xl"
                             >
                                 <span className="leading-none block">
                                     {"View Products"}

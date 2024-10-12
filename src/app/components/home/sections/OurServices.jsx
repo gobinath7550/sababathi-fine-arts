@@ -4,7 +4,7 @@ export default function OurServices() {
     return (
         <div className="bg-slate-900">
             <div className="xl:max-w-[70rem] m-auto p-10 pb-14">
-                <h3 className="font-carattere text-center font-extrabold tracking-widest text-[#e90388] text-xl">
+                <h3 className="font-coinage-caps-kruger-gray text-center font-extrabold tracking-widest text-[#e90388] text-xl">
                     {"Our Services"}
                 </h3>
                 <div className="grid grid-cols-3 max-sm:grid-cols-1 max-sm:grid-rows-5 items-center justify-center text-sm mt-7 gap-10">
@@ -18,7 +18,7 @@ export default function OurServices() {
                             priority
                         />
                         <div className="absolute bottom-0 p-4 py-6 rounded-md bg-[#e90388]/50 right-0 left-0">
-                            <h3 className="leading-none capitalize text-white text-md font-extrabold tracking-widest">
+                            <h3 className="leading-none capitalize text-white text-md font-extrabold tracking-widest text-xs sm:text-[0.975rem]">
                                 {"Offset Printing"}
                             </h3>
                         </div>
@@ -33,7 +33,7 @@ export default function OurServices() {
                             priority
                         />
                         <div className="absolute bottom-0 p-4 py-6 rounded-md bg-[#e90388]/40 right-0 left-0">
-                            <h3 className="leading-none capitalize text-white text-md font-extrabold tracking-widest">
+                            <h3 className="leading-none capitalize text-white text-md font-extrabold tracking-widest text-xs sm:text-[0.975rem]">
                                 {"Embossing / Foils"}
                             </h3>
                         </div>
@@ -48,7 +48,7 @@ export default function OurServices() {
                             priority
                         />
                         <div className="absolute bottom-0 p-4 py-6 rounded-md bg-[#e90388]/40 right-0 left-0">
-                            <h3 className="leading-none capitalize text-white text-md font-extrabold tracking-widest">
+                            <h3 className="leading-none capitalize text-white text-md font-extrabold tracking-widest text-xs sm:text-[0.975rem]">
                                 {"UV Coating"}
                             </h3>
                         </div>
@@ -63,7 +63,7 @@ export default function OurServices() {
                             priority
                         />
                         <div className="absolute bottom-0 p-4 py-6 rounded-md bg-[#e90388]/60 right-0 left-0">
-                            <h3 className="leading-none capitalize text-white text-md font-extrabold tracking-widest">
+                            <h3 className="leading-none capitalize text-white text-md font-extrabold tracking-widest text-xs sm:text-[0.975rem]">
                                 {"Varnish Coating"}
                             </h3>
                         </div>
@@ -78,7 +78,7 @@ export default function OurServices() {
                             priority
                         />
                         <div className="absolute bottom-0 p-4 py-6 rounded-md bg-[#e90388]/50 right-0 left-0">
-                            <h3 className="leading-none capitalize text-white text-md font-extrabold tracking-widest">
+                            <h3 className="leading-none capitalize text-white text-md font-extrabold tracking-widest text-xs sm:text-[0.975rem]">
                                 {"Lamination"}
                             </h3>
                         </div>

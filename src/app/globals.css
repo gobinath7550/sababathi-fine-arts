@@ -22,6 +22,10 @@ body {
     font-size: 48px;
 }
 
+.font-coinage-caps-kruger-gray {
+    font-family: var(--font-coinage-caps-kruger-gray);
+}
+
 .text-shadow {
     text-shadow: 1px 1px 0 #000000, 1px 1px 8px #ddd3d3;
 }

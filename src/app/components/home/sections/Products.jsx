@@ -4,10 +4,10 @@ export default function Products() {
     return (
         <div className="bg-white">
             <div className="xl:max-w-[70rem] m-auto p-10 pb-14">
-                <h3 className="font-carattere text-center font-extrabold tracking-widest text-[#e90388] text-xl">
+                <h3 className="font-coinage-caps-kruger-gray text-center font-extrabold tracking-widest text-[#e90388] text-xl">
                     {"Our Products"}
                 </h3>
-                <p className="text-xs leading-6 mt-3 text-center">
+                <p className="text-xs sm:text-[0.975rem] leading-6 mt-3 text-center">
                     {
                         "We provide premium quality printing service for notebooks, food packaging labels and boxes, sweet and bakery boxes, pharma labels and boxes, and other trademark businesses"
                     }
