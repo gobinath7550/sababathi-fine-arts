@@ -183,6 +183,23 @@ export default function Products() {
                             </h3>
                         </div>
                     </div>
+                    <div className="w-full h-full flex flex-col gap-4 items-center justify-between font-bold shadow-xl p-5 rounded-md bg-white border-2">
+                        <div className="w-fit h-fit">
+                            <Image
+                                src="/images/products/last-image-for-product.png"
+                                alt="G"
+                                width={360}
+                                height={65}
+                                className="object-cover w-full h-full"
+                                priority
+                            />
+                        </div>
+                        <div className="w-full">
+                            <h3 className="leading-none capitalize text-[16px] text-slate-600 font-extrabold text-center">
+                                {"Printed papers and boards for any products"}
+                            </h3>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -51,11 +51,11 @@ export default function Footer() {
                                         />
                                     </span>
                                     <span className="tracking-wider text-[12px]">
-                                        {"+91 8870342863"}
+                                        {"+91 9498316221"}
                                     </span>
                                 </a>
                                 <a
-                                    href="tel:918870342863"
+                                    href="tel:9498316221"
                                     target="_blank"
                                     className="flex items-center justify-start gap-2 mt-1"
                                 >
@@ -63,7 +63,7 @@ export default function Footer() {
                                         <Call className={"fill-white"} />
                                     </span>
                                     <span className="tracking-wider text-[12px]">
-                                        {"+91 8870342863"}
+                                        {"+91 9498316221, +91 9443156003"}
                                     </span>
                                 </a>
                             </address>

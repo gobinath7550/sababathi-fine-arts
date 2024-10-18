@@ -136,7 +136,7 @@ export default function Header({ urlPath }) {
                             </span>
                         </a>
                         <a
-                            href="https://wa.me/+918870342863"
+                            href="https://wa.me/+919498316221"
                             target="_blank"
                             className="flex items-center justify-start gap-2"
                         >
@@ -145,7 +145,7 @@ export default function Header({ urlPath }) {
                             </span>
                         </a>
                         <a
-                            href="tel:918870342863"
+                            href="tel:9498316221"
                             target="_blank"
                             className="flex items-center justify-start gap-2"
                         >
