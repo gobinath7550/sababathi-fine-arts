@@ -194,11 +194,6 @@ export default function Products() {
                                 priority
                             />
                         </div>
-                        <div className="w-full">
-                            <h3 className="leading-none capitalize text-[16px] text-slate-600 font-extrabold text-center">
-                                {"Printed papers and boards for any products"}
-                            </h3>
-                        </div>
                     </div>
                 </div>
             </div>
