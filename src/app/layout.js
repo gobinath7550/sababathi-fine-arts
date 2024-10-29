@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en" className="scroll-smooth">
             <head>
-                <title>Sabapathi Fine Arts</title>
+                <title>Sabapathi Fine Arts | Home</title>
                 <meta charset="utf-8" />
                 <link
                     rel="stylesheet"
@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
                 />
                 <meta
                     name="description"
-                    content="Sabapathi Fine Arts – Welcome to Sabapathi Fine Arts, your trusted partner for premium printing solutions. We specialize in delivering high-quality, customized printing services to businesses and individuals. From business cards and brochures to large-format banners and packaging, our state-of-the-art equipment ensures sharp, vibrant, and durable prints. Explore our wide range of services and let us bring your vision to life with exceptional results, fast turnaround times, and outstanding customer service."
+                    content="We offer high-quality, customized prints, including business cards, brochures, banners, and packaging. Discover how we can bring your vision to life!"
                 />
                 <meta
                     name="keywords"
