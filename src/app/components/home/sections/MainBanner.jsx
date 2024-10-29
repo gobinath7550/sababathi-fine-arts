@@ -70,7 +70,7 @@ export default function MainBenner() {
             <div className="bg-black/70 py-14 sm:py-20 md:py-32 flex flex-col items-center justify-center gap-5 max-sm:gap-0">
                 <div className="xl:max-w-[70rem] m-auto p-7">
                     <div className="flex flex-col items-center justify-center gap-6">
-                        <h1 className="text-[calc(100vw-92vw)] text-center leading-none text-white tracking-widest text-shadow font-['Carattere']">
+                        <h2 className="text-[calc(100vw-92vw)] text-center leading-none text-white tracking-widest text-shadow font-['Carattere']">
                             {"Your "}
                             <span className="text-[#e90388]">
                                 {"trusted partner"}
@@ -79,7 +79,7 @@ export default function MainBenner() {
                             <span className="text-[#e90388]">
                                 {" printing needs"}
                             </span>
-                        </h1>
+                        </h2>
                         <h1 className="font-extrabold text-xs sm:text-[0.975rem] text-center leading-5 text-white text-shadow tracking-widest px-8">
                             {
                                 "Take your business to the next level with our top-quality printed labels."

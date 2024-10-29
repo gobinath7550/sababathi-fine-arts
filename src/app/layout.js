@@ -43,7 +43,7 @@ export default function RootLayout({ children }) {
                 <meta property="og:image" content="/images/main-logo.png" />
                 <meta
                     property="og:url"
-                    content="https://sababathi-fine-arts.vercel.app/"
+                    content="https://sabapathifinearts.in/"
                 />
             </head>
             <body className={`${coinageCapsKrugerGray.variable} antialiased`}>
