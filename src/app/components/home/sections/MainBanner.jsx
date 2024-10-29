@@ -87,6 +87,7 @@ export default function MainBenner() {
                         </h1>
                         <div className="text-white flex items-center justify-center gap-3 sm:pt-5">
                             <a
+                                href="#read-more"
                                 onClick={(e) => handleScroll(e, "about-us")}
                                 className="text-sm tracking-widest font-extrabold max-sm:text-[9px] leading-none border-2 border-white rounded-full p-3 px-5 hover:text-[#e90388] hover:border-[#e90388] transition-all cursor-pointer"
                             >
