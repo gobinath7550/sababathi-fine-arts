@@ -25,6 +25,7 @@ export default function RootLayout({ children }) {
                     rel="stylesheet"
                     href="https://fonts.googleapis.com/css?family=Open Sans"
                 />
+                <link rel="canonical" href="https://sabapathifinearts.in/" />
                 <meta
                     name="description"
                     content="We offer high-quality, customized prints, including business cards, brochures, banners, and packaging. Discover how we can bring your vision to life!"
