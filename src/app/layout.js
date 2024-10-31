@@ -1,4 +1,5 @@
 import localFont from "next/font/local";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
 const coinageCapsKrugerGray = localFont({
@@ -49,6 +50,7 @@ export default function RootLayout({ children }) {
             </head>
             <body className={`${coinageCapsKrugerGray.variable} antialiased`}>
                 {children}
+                <SpeedInsights />
             </body>
         </html>
     );
