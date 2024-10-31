@@ -30,6 +30,7 @@ export default function Footer() {
                                     href="https://mail.google.com/mail/?view=cm&fs=1&to=sabapathifinearts@gmail.com"
                                     target="_blank"
                                     className="flex items-center justify-start gap-2 mt-1"
+                                    aria-label="GMail"
                                 >
                                     <span className="bg-[#0d0029] group cursor-pointer hover:bg-[#e90388] border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[5px] shadow-xl transition-all w-8 h-8 block">
                                         <Email
@@ -44,6 +45,7 @@ export default function Footer() {
                                     href="https://wa.me/+918870342863"
                                     target="_blank"
                                     className="flex items-center justify-start gap-2 mt-1"
+                                    aria-label="WhatsApp"
                                 >
                                     <span className="bg-[#0d0029] group cursor-pointer hover:bg-[#e90388] border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[5px] shadow-xl transition-all w-8 h-8 block">
                                         <WhatsApp_Svg
@@ -58,6 +60,7 @@ export default function Footer() {
                                     href="tel:9498316221"
                                     target="_blank"
                                     className="flex items-center justify-start gap-2 mt-1"
+                                    aria-label="Mobile Number"
                                 >
                                     <span className="bg-[#0d0029] group cursor-pointer hover:bg-[#e90388] border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[5px] shadow-xl transition-all w-8 h-8 block">
                                         <Call className={"fill-white"} />
