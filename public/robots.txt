@@ -1,0 +1,5 @@
+# Sabapathi Fine Arts
+
+User-agent: *
+Disallow: /private
+Allow: /
