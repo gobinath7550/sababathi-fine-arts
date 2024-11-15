@@ -33,10 +33,11 @@ export default function RootLayout({ children }) {
                 />
                 <meta
                     name="keywords"
-                    content="Sabapathi Fine Arts, printing services, custom printing, professional printing, digital printing, offset printing, high-quality prints, business cards printing, brochures printing, posters printing, large format printing, banner printing, affordable printing services, custom design printing, personalized printing, promotional materials, print shop, professional print solutions, bulk printing services, creative printing solutions"
+                    content="Sabapathi Fine Arts, Sabapathi Fine, Sabapathi Arts, SabapathiFineArts, Sabapathifinearts, Sabapathifine, Sabapathiarts, Sabapathi, Sabapathi printing service, Sabapathi printing, printing services, custom printing, professional printing, digital printing, offset printing, high-quality prints, business cards printing, brochures printing, posters printing, large format printing, banner printing, affordable printing services, custom design printing, personalized printing, promotional materials, print shop, professional print solutions, bulk printing services, creative printing solutions"
                 />
                 <meta name="author" content="Sabapathi" />
                 <meta name="robots" content="index, follow" />
+                <link rel="icon" href="/images/favicon.ico"></link>
                 <meta property="og:title" content="Sabapathi Fine Arts" />
                 <meta
                     property="og:description"
