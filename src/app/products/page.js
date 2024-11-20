@@ -19,7 +19,7 @@ export default function Index() {
     return (
         <html lang="en" className="scroll-smooth">
             <head>
-                <title>Sabapathi Fine Arts | Home</title>
+                <title>Sabapathi Fine Arts | Products</title>
                 <meta charset="utf-8" />
                 <link
                     rel="stylesheet"
@@ -39,7 +39,7 @@ export default function Index() {
                 />
                 <meta
                     name="description"
-                    content="We offer high-quality, customized prints, including business cards, brochures, banners, and packaging. Discover how we can bring your vision to life!"
+                    content="Explore our premium, tailored printing services designed to meet all your needs. Let us transform your ideas into stunning prints!"
                 />
                 <meta
                     name="keywords"
@@ -61,7 +61,7 @@ export default function Index() {
                 <meta property="og:title" content="Sabapathi Fine Arts" />
                 <meta
                     property="og:description"
-                    content="We offer high-quality, customized prints, including business cards, brochures, banners, and packaging. Discover how we can bring your vision to life!"
+                    content="Explore our premium, tailored printing services designed to meet all your needs. Let us transform your ideas into stunning prints!"
                 />
                 <meta
                     property="og:image"
