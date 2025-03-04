@@ -4,7 +4,7 @@ import GoogleForm from "./GoogleForm";
 
 export default function Footer() {
     return (
-        <footer className="bg-slate-900 text-[#e90388] w-full" id="contact-us">
+        <footer className="bg-slate-900 text-[#fa0029] w-full" id="contact-us">
             <div className="xl:max-w-[70rem] m-auto p-7">
                 <div className="grid grid-cols-3 max-md:grid-cols-1 gap-10">
                     <div className="px-4 flex flex-col gap-6 md:col-span-2">
@@ -32,7 +32,7 @@ export default function Footer() {
                                     className="flex items-center justify-start gap-2 mt-1"
                                     aria-label="GMail"
                                 >
-                                    <span className="bg-[#0d0029] group cursor-pointer hover:bg-[#e90388] border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[5px] shadow-xl transition-all w-8 h-8 block">
+                                    <span className="bg-[#0d0029] group cursor-pointer hover:bg-[#fa0029] border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[5px] shadow-xl transition-all w-8 h-8 block">
                                         <Email
                                             className={"fill-none stroke-white"}
                                         />
@@ -47,7 +47,7 @@ export default function Footer() {
                                     className="flex items-center justify-start gap-2 mt-1"
                                     aria-label="WhatsApp"
                                 >
-                                    <span className="bg-[#0d0029] group cursor-pointer hover:bg-[#e90388] border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[5px] shadow-xl transition-all w-8 h-8 block">
+                                    <span className="bg-[#0d0029] group cursor-pointer hover:bg-[#fa0029] border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[5px] shadow-xl transition-all w-8 h-8 block">
                                         <WhatsApp_Svg
                                             className={"fill-white"}
                                         />
@@ -62,7 +62,7 @@ export default function Footer() {
                                     className="flex items-center justify-start gap-2 mt-1"
                                     aria-label="Mobile Number"
                                 >
-                                    <span className="bg-[#0d0029] group cursor-pointer hover:bg-[#e90388] border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[5px] shadow-xl transition-all w-8 h-8 block">
+                                    <span className="bg-[#0d0029] group cursor-pointer hover:bg-[#fa0029] border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[5px] shadow-xl transition-all w-8 h-8 block">
                                         <Call className={"fill-white"} />
                                     </span>
                                     <span className="tracking-wider text-[12px]">

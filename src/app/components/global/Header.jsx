@@ -131,7 +131,7 @@ export default function Header({ urlPath }) {
                             target="_blank"
                             className="flex items-center justify-start gap-2"
                         >
-                            <span className="bg-[#0d0029] group cursor-pointer hover:bg-[#e90388] border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[5px] shadow-xl transition-all w-8 h-8 block">
+                            <span className="bg-[#0d0029] group cursor-pointer hover:bg-[#fa0029] border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[5px] shadow-xl transition-all w-8 h-8 block">
                                 <Email className={"fill-none stroke-white"} />
                             </span>
                         </a>
@@ -140,7 +140,7 @@ export default function Header({ urlPath }) {
                             target="_blank"
                             className="flex items-center justify-start gap-2"
                         >
-                            <span className="bg-[#0d0029] group cursor-pointer hover:bg-[#e90388] border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[5px] shadow-xl transition-all w-8 h-8 block">
+                            <span className="bg-[#0d0029] group cursor-pointer hover:bg-[#fa0029] border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[5px] shadow-xl transition-all w-8 h-8 block">
                                 <WhatsApp_Svg className={"fill-white"} />
                             </span>
                         </a>
@@ -149,19 +149,10 @@ export default function Header({ urlPath }) {
                             target="_blank"
                             className="flex items-center justify-start gap-2"
                         >
-                            <span className="bg-[#0d0029] group cursor-pointer hover:bg-[#e90388] border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[5px] shadow-xl transition-all w-8 h-8 block">
+                            <span className="bg-[#0d0029] group cursor-pointer hover:bg-[#fa0029] border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[5px] shadow-xl transition-all w-8 h-8 block">
                                 <Call className={"fill-white"} />
                             </span>
                         </a>
-                        {/* <li className="bg-[#0d0029] group cursor-pointer hover:bg-[#e90388] border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[8px] shadow-xl w-10 h-10 transition-all flex">
-                            <Instagram_Svg />
-                        </li>
-                        <li className="bg-[#0d0029] group cursor-pointer hover:bg-[#e90388] border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[8px] shadow-xl w-10 h-10 transition-all flex">
-                            <Facebook_Svg />
-                        </li>
-                        <li className="bg-[#0d0029] group cursor-pointer hover:bg-[#e90388] border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[8px] shadow-xl w-10 h-10 transition-all flex">
-                            <Youtube_Svg />
-                        </li> */}
                     </nav>
                 </div>
             </div>
@@ -170,7 +161,7 @@ export default function Header({ urlPath }) {
                     <div className="flex gap-2 items-center justify-center">
                         <MainLogo />
                         <div className="flex flex-col divide-y-[1px] divide-gray-800">
-                            <span className="text-[#e90388] font-['Carattere'] tracking-wide leading-none text-[1.5rem]">
+                            <span className="text-[#fa0029] font-['Carattere'] tracking-wide leading-none text-[1.5rem]">
                                 {"Sabapathi Fine Arts"}
                             </span>
                             <span className="text-[11px] text-gray-800 font-bold tracking-widest px-[1.2px]">

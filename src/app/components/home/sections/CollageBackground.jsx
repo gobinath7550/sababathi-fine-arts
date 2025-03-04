@@ -44,7 +44,7 @@ export default function CollageBackground() {
                                 "We provide premium quality printing service for notebooks, food packaging labels and boxes, sweet and bakery boxes, pharma labels and boxes, and other trademark businesses"
                             }
                         </h2>
-                        <div className="flex w-full items-center text-[#e90388] pt-3 justify-start">
+                        <div className="flex w-full items-center text-[#fa0029] pt-3 justify-start">
                             <a
                                 href="/products"
                                 className="tracking-wider cursor-pointer flex items-center justify-center gap-3 max-sm:gap-2 text-lg sm:text-xl"
@@ -53,7 +53,7 @@ export default function CollageBackground() {
                                     {"View Products"}
                                 </span>
                                 <span className="w-8 h-8 max-sm:w-4 max-sm:h-4 block">
-                                    <RightArrow className={"fill-[#e90388]"} />
+                                    <RightArrow className={"fill-[#fa0029]"} />
                                 </span>
                             </a>
                         </div>

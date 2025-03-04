@@ -118,7 +118,7 @@ const GoogleForm = () => {
             {isLoading && (
                 <button
                     type="button"
-                    className="bg-[#e90388] text-gray-300 p-3 tracking-widest font-semibold leading-3 font-carattere flex items-center justify-center col-span-2"
+                    className="bg-[#fa0029] text-gray-300 p-3 tracking-widest font-semibold leading-3 font-carattere flex items-center justify-center col-span-2"
                 >
                     <span className="block w-4 h-4 border-l-2 border-white animate-spin rounded-full"></span>
                 </button>
@@ -126,7 +126,7 @@ const GoogleForm = () => {
             {!isLoading && (
                 <button
                     type="submit"
-                    className="bg-[#e90388] text-gray-300 p-3 tracking-widest font-semibold leading-3 font-carattere flex items-center justify-center min-h-10 col-span-2"
+                    className="bg-[#fa0029] text-gray-300 p-3 tracking-widest font-semibold leading-3 font-carattere flex items-center justify-center min-h-10 col-span-2"
                 >
                     <span>{"Submit"}</span>
                 </button>
