@@ -1,4 +1,4 @@
-import { WhatsApp_Svg, Call, Email } from "../svg-icons";
+import { WhatsApp_Svg, Call, Email, Instagram_Svg } from "../svg-icons";
 
 import GoogleForm from "./GoogleForm";
 
@@ -67,6 +67,21 @@ export default function Footer() {
                                     </span>
                                     <span className="tracking-wider text-[12px]">
                                         {"+91 9498316221, +91 9443156003"}
+                                    </span>
+                                </a>
+                                <a
+                                    href="https://www.instagram.com/sabapathi_fine_arts/profilecard/?igsh=MW1hb3Q4OHpnNXl1Zw=="
+                                    target="_blank"
+                                    className="flex items-center justify-start gap-2 mt-1"
+                                    aria-label="Mobile Number"
+                                >
+                                    <span className="bg-[#0d0029] group cursor-pointer hover:bg-[#fa0029] border-2 border-transparent hover:border-2 hover:border-[#0d0029] rounded-full p-[5px] shadow-xl transition-all w-8 h-8 block">
+                                        <Instagram_Svg
+                                            className={"fill-white"}
+                                        />
+                                    </span>
+                                    <span className="tracking-wider text-[12px]">
+                                        {"@sabapathi_fine_arts"}
                                     </span>
                                 </a>
                             </address>
